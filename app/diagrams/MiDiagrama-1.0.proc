@@ -3,7 +3,7 @@
   <process:MainProcess xmi:id="_ZBiV0LDZEfCISrwI77W4dw" name="MiDiagrama" bonitaModelVersion="8">
     <elements xmi:type="process:Pool" xmi:id="_ZBiV0bDZEfCISrwI77W4dw" name="SolicitudPedidoInterno">
       <elements xmi:type="process:Lane" xmi:id="_ZBiV0rDZEfCISrwI77W4dw" name="Empleado Comercio" actor="_OIKJwLDfEfCISrwI77W4dw">
-        <elements xmi:type="process:StartEvent" xmi:id="_ZBiV07DZEfCISrwI77W4dw" name="Solicitud Pedido" outgoing="_ZBiV6LDZEfCISrwI77W4dw">
+        <elements xmi:type="process:StartEvent" xmi:id="_ZBiV07DZEfCISrwI77W4dw" name="Solicitud Pedido Mercaderia" outgoing="_ZBiV6LDZEfCISrwI77W4dw">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_ZBiV1LDZEfCISrwI77W4dw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_ZBiV1bDZEfCISrwI77W4dw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_ZBiV1rDZEfCISrwI77W4dw" name="" content="" returnTypeFixed="true"/>
@@ -54,7 +54,7 @@
         </filters>
       </elements>
       <elements xmi:type="process:Lane" xmi:id="_ETCwsLDdEfCISrwI77W4dw" name="Empleado Logistica" actor="_OIKJwLDfEfCISrwI77W4dw">
-        <elements xmi:type="process:Task" xmi:id="_ZBiV17DZEfCISrwI77W4dw" name="Atiende Solicitud Interno" outgoing="_d5THQLDfEfCISrwI77W4dw" incoming="_ZBiV6LDZEfCISrwI77W4dw" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_ZBiV17DZEfCISrwI77W4dw" name="Atiende Solicitud Mercaderia" outgoing="_d5THQLDfEfCISrwI77W4dw" incoming="_ZBiV6LDZEfCISrwI77W4dw" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_ZBiV2LDZEfCISrwI77W4dw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_ZBiV2bDZEfCISrwI77W4dw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_ZBiV2rDZEfCISrwI77W4dw" name="" content="" returnTypeFixed="true"/>
